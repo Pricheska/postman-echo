@@ -49,7 +49,7 @@ public class EchoTest {
 
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("USD"))
+                .body("data", equalTo("RUB"))
                 ;
     }
 
